@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ddd;
+    color: #0d0d0d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.swipable {
+    width: 50%;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    user-select: none;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.container {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: height .5s;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
